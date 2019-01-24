@@ -35,7 +35,7 @@ function obtener_estructura_directorios($rutas){
                     $var = str_replace(" ", "%20", $archivo);
                     $host = $_SERVER['HTTP_HOST'];
                     //echo "<td><a href='" . $host . "/" . $ruta . "/" . $var . "' target='_blank'>http://" . $host . "/tecnopuntos/recursos/" . $rutas . "/" .  $var . "</a></td>";
-                    echo "<td><a href='http://52.15.245.23/" . $ruta . "/" . $var . "' target='_blank'>http://" . $host . "/tecnopuntos/recursos/" . $rutas . "/" .  $var . "</a></td>";
+                    echo "<td><a href='" . $host . "tecnopuntos/" . $ruta . "/" . $var . "' target='_blank'>http://" . $host . "/tecnopuntos/recursos/" . $rutas . "/" .  $var . "</a></td>";
                     echo "</tr>";
                 }
             }
