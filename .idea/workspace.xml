@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="471d2454-1ae8-4923-a06f-0cf1d264d031" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/imagenesLG.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/cargar_imagenes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/cargar_imagenes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/links.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +45,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="125" />
+          <entry key="PHP" value="126" />
         </counts>
       </usages-collector>
     </session>
@@ -88,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/public/links.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="36" column="150" selection-start-line="36" selection-start-column="150" selection-end-line="36" selection-end-column="150" />
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -220,12 +215,12 @@
       <updated>1548293502145</updated>
       <workItem from="1548293504015" duration="3217000" />
       <workItem from="1548296857511" duration="706000" />
-      <workItem from="1548369949565" duration="1247000" />
+      <workItem from="1548369949565" duration="1614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5170000" />
+    <option name="totallyTimeSpent" value="5537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,7 +295,7 @@
     <entry file="file://$PROJECT_DIR$/public/links.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="36" column="150" selection-start-line="36" selection-start-column="150" selection-end-line="36" selection-end-column="150" />
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
         </state>
       </provider>
     </entry>
