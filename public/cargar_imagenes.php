@@ -39,6 +39,3 @@ include '../back/conexion.php';
 </div>
 </body>
 </html>
-<?php
-
-?>

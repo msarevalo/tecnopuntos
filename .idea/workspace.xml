@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="471d2454-1ae8-4923-a06f-0cf1d264d031" name="Default Changelist" comment="" />
+    <list default="true" id="471d2454-1ae8-4923-a06f-0cf1d264d031" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/imagenesLG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/cargar_imagenes.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/cargar_imagenes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/links.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/links.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +37,20 @@
     <session id="-1046431027">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="125" />
         </counts>
       </usages-collector>
     </session>
@@ -50,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/cargar_imagenes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state>
+              <caret selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -68,8 +87,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/links.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="408">
+              <caret line="36" column="150" selection-start-line="36" selection-start-column="150" selection-end-line="36" selection-end-column="150" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/historico.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -84,8 +121,10 @@
       <list>
         <option value="$PROJECT_DIR$/back/conexion.php" />
         <option value="$PROJECT_DIR$/views.php" />
-        <option value="$PROJECT_DIR$/public/cargar_imagenes.php" />
         <option value="$PROJECT_DIR$/back/guarda.php" />
+        <option value="$PROJECT_DIR$/public/cargar_imagenes.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/public/historico.php" />
         <option value="$PROJECT_DIR$/public/links.php" />
       </list>
     </option>
@@ -116,6 +155,11 @@
               <item name="tecnopuntos" type="b2602c69:ProjectViewProjectNode" />
               <item name="tecnopuntos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tecnopuntos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tecnopuntos" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +175,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SOPORTE COLOMBIA\PhpstormProjects\imagenesLG\back" />
+      <recent name="C:\Users\SOPORTE COLOMBIA\PhpstormProjects\tecnopuntos\back" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,12 +190,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="cargar_imagenes.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/imagenesLG/public/cargar_imagenes.php">
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration name="cargar_imagenes.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tecnopuntos/public/cargar_imagenes.php">
       <method v="2" />
     </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/tecnopuntos/public/index.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.cargar_imagenes.php" />
+      <item itemvalue="JavaScript Debug.index.php" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.php" />
         <item itemvalue="JavaScript Debug.cargar_imagenes.php" />
       </list>
     </recent_temporary>
@@ -167,18 +219,19 @@
       <option name="presentableId" value="Default" />
       <updated>1548293502145</updated>
       <workItem from="1548293504015" duration="3217000" />
-      <workItem from="1548296857511" duration="383000" />
+      <workItem from="1548296857511" duration="706000" />
+      <workItem from="1548369949565" duration="1247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3600000" />
+    <option name="totallyTimeSpent" value="5170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,6 +261,7 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views.php" />
+    <entry file="file://$PROJECT_DIR$/css/estilos.php" />
     <entry file="file://$PROJECT_DIR$/back/conexion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -217,8 +271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/cargar_imagenes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state>
+          <caret selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -229,10 +283,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/historico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/links.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="408">
+          <caret line="36" column="150" selection-start-line="36" selection-start-column="150" selection-end-line="36" selection-end-column="150" />
         </state>
       </provider>
     </entry>

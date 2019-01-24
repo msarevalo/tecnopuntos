@@ -1,21 +1,13 @@
 <?php
 
-$directorio = null;
-if (isset($_GET['dir'])){
-    $directorio = $_GET['dir'];
-}
-
-echo "carpeta: " . $directorio. "<br><a href='cargar_imagenes.php'>Volver</a>";
-$prueba = $directorio;
-$rutas = $directorio;
-function obtener_estructura_directorios($rutas){
+$ruta = "../recursos";
+function obtener_estructura_directorios($ruta){
     // Se comprueba que realmente sea la ruta de un directorio
     echo "<table border='1'><thead><tr><th>Nombre Archivo</th><th>Imagen</th><th>URL</th></tr></thead>";
-    $ruta = "../recursos/" . $rutas;
     if (is_dir($ruta)){
         // Abre un gestor de directorios para la ruta indicada
         $gestor = opendir($ruta);
-        //echo "<ul>";
+        echo "<ul>";
 
         // Recorre todos los elementos del directorio
         while (($archivo = readdir($gestor)) !== false)  {
@@ -34,7 +26,7 @@ function obtener_estructura_directorios($rutas){
                     echo "<td><img src='".$ruta."/".$archivo."' width='100px' alt='".$archivo."' title='".$archivo."'></td>";
                     $var = str_replace(" ", "%20", $archivo);
                     $host = $_SERVER['HTTP_HOST'];
-                    echo "<td><a href='" . $host . "/tecnopuntos/recursos/" . $ruta . "/" . $var . "' target='_blank'>http://" . $host . "/tecnopuntos/recursos/" . $rutas . "/" .  $var . "</a></td>";
+                    echo "<td><a href='" . $host . "/imagenesLG/recursos/" . $ruta . "/" . $var . "' target='_blank'>http://" . $host . "/imagenesLG/recursos/" . $rutas . "/" .  $var . "</a> </td>";
                     echo "</tr>";
                 }
             }
@@ -76,5 +68,5 @@ function mostrar_imagenes($ruta){
 
 // Ruta de la carpeta en la que se encuentra el archivo desde el que
 // se hace esta llamada
-obtener_estructura_directorios($rutas);
+obtener_estructura_directorios($ruta);
 
